@@ -289,13 +289,13 @@ header div h2 {
 .tretto {
     background: url("../img/portfolio5.png");
     background-repeat: no-repeat;
-    background-position: -60px -80px;
+    background-position: -85px -60px;
     background-size: cover;
     height: 100vh;
 }
 
 .tretto p:first-child {
-    color: #9e9e9e;
+    color: #333;
     font-size: 1.5rem;
     padding-left: 30vh;
     padding-top: 15vh;
@@ -308,38 +308,134 @@ header div h2 {
 }
 
 .tretto h2 {
-    color: white;
+    color: #000;
     margin-left: 30vh;
-    margin-top: 3vh;
+    margin-top: 2vh;
     font-family: 'Didact Gothic', sans-serif; 
     font-size: 6rem;
     font-weight: 200;
 }
 
 .tretto p:nth-of-type(2) {
-    color: #9e9e9e;
-    font-size: 1.5rem;
+    color: #333;
+    font-size: 1.3rem;
     padding-left: 30vh;
-    padding-top: 5vh;
+    padding-top: 3.5vh;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
 }
 
 .tretto div {
     margin-left: 30vh;
-    margin-top: 15vh;
+    margin-top: 10vh;
 }
 
 .tretto div a {
-    color: white;
+    color: black;
     text-decoration: none;
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 10px 20px 10px 20px;
     font-family: 'Fjalla One', sans-serif;
     font-size: 1rem;
 }
 
 .tretto div a:hover {
-    background: white;
-    color: black;
+    background: black;
+    color: white;
+}
+
+.tretto h2:last-child {
+    font-family: 'Fjalla One', sans-serif;
+    margin-left: 80%;
+    margin-bottom: 20%;
+    margin-top: 0;
+    color: #666;
+    font-size: 9rem;
+}
+
+/* ==========================================
+            MAIN/Section:TRETTO
+===========================================*/
+
+.whatMore {
+    background: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.whatMore h2 {
+    color: white;
+    text-align: center;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 8rem;
+    font-weight: 400;
+    padding-top: 130px;
+    letter-spacing: -15px;
+}
+
+.whatMore div {
+    width: 500px;
+    height: 200px;
+    margin-left: 87vh;
+    margin-top: 13vh;
+}
+
+.whatMore p {
+    color: #666666;
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+    line-height: 40px;
+    letter-spacing: 1.1px;
+}
+
+.whatMore div a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3rem;
+}
+
+.whatMore div:last-child {
+    margin-top: 5vh;
+}
+
+.whatMore div:last-child:hover {
+    text-decoration: underline;
+}
+
+/* ==========================================
+            FOOTER
+===========================================*/
+.social div {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.social div a {
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 6rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.social div a:hover {
+    text-decoration: underline;
+}
+
+.social div a:last-child {
+    padding-bottom: 200px;
+}
+
+.heart {
+	font-size: 50px;
+	animation: beat .6s infinite alternate;
+	transform-origin: center;
+    margin-bottom: 100px;
+}
+
+@keyframes beat{
+	to { transform: scale(1.2); }
 }
