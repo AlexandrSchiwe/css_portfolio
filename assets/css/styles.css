@@ -47,7 +47,7 @@ header p {
 }
 
 header div {
-    margin: 30px 0 50px 0;
+    margin: 40px 0 60px 0;
 
 }
 
@@ -66,7 +66,7 @@ header div h2 {
     font-family: 'Work Sans', sans-serif;
     font-weight: 400;
     font-size: 6rem;
-    margin: 50px 0 50px 0;
+    margin: 80px 0 80px 0;
 }
 
 /* ==========================================
@@ -354,7 +354,7 @@ header div h2 {
 }
 
 /* ==========================================
-            MAIN/Section:TRETTO
+            MAIN/Section:whatMore
 ===========================================*/
 
 .whatMore {
@@ -378,7 +378,7 @@ header div h2 {
 .whatMore div {
     width: 500px;
     height: 200px;
-    margin-left: 87vh;
+    margin-left: 83vh;
     margin-top: 13vh;
 }
 
