@@ -126,10 +126,16 @@ header div h2 {
     font-size: 1rem;
 }
 
+.orbis div a:hover ~ h2 {
+    color: white;
+}
+
 .orbis div a:hover {
     background: white;
     color: black;
 }
+
+
 
 .orbis h2:last-child {
     font-family: 'Fjalla One', sans-serif;
@@ -138,7 +144,9 @@ header div h2 {
     margin-top: 0;
     color: rgb(158, 158, 158, 0.3);
     font-size: 9rem;
+    background: none;
 }
+
 
 /* ==========================================
             MAIN/Section:ROLLR
@@ -197,6 +205,10 @@ header div h2 {
     font-size: 1rem;
 }
 
+.rollr div a:hover ~ h2 {
+    color: black;
+}
+
 .rollr div a:hover {
     background: black;
     color: white;
@@ -207,7 +219,7 @@ header div h2 {
     margin-left: 80%;
     margin-bottom: 10%;
     margin-top: 0;
-    color: #333;
+    color: #666;
     font-size: 9rem;
 }
 
@@ -266,6 +278,10 @@ header div h2 {
     padding: 10px 20px 10px 20px;
     font-family: 'Fjalla One', sans-serif;
     font-size: 1rem;
+}
+
+.galitos div a:hover ~ h2{
+    color: white;
 }
 
 .galitos div a:hover {
@@ -339,6 +355,10 @@ header div h2 {
     font-size: 1rem;
 }
 
+.tretto div a:hover ~ h2 {
+    color: #000;
+}
+
 .tretto div a:hover {
     background: black;
     color: white;
@@ -378,7 +398,7 @@ header div h2 {
 .whatMore div {
     width: 500px;
     height: 200px;
-    margin-left: 83vh;
+    margin-left: 87vh;
     margin-top: 13vh;
 }
 
